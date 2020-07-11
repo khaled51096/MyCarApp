@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ui.Settings">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_bar_settings">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tool_par_settings"
+            android:background="@color/colorPrimaryDark">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/close_btn"
+                    android:src="@drawable/ic_arrow_left"
+                    android:tint="@color/black"
+                    android:layout_alignParentEnd="true">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/save_btn"
+                    android:src="@drawable/baseline_done_black_24"
+                    android:tint="@color/black"
+                    android:layout_alignParentStart="true">
+
+                </ImageView>
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_acc_user"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/profile"
+        android:layout_marginTop="40dp"
+        android:background="@color/gray"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/app_bar_settings"        >
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/change_pic_btn"
+        android:layout_below="@+id/img_acc_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Change Picture"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_below="@+id/change_pic_btn"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Your Name"
+        android:textColorHint="@color/black"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Your Phone Number"
+        android:inputType="phone"
+        android:textColorHint="@color/black"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/driver_car_name"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Your Car Name"
+        android:textColorHint="@color/black"
+        android:visibility="gone"
+        ></EditText>
+
+</RelativeLayout>

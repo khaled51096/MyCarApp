@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff12b6</color>
+    <color name="colorPrimaryDark">#c880ff</color>
+    <color name="colorAccent">#f2e712</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lollia_logo">#880E4F</color>
+    <color name="black">#000</color>
+    <color name="gray">#C4DDDDDD</color>
+    <color name="whitegreen">#D36AAF4C</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFEFE</color>
+    <color name="colorlittleWhite">#F0EAEA</color>
+    <color name="colorred">#E8A30404</color>
+    <color name="colorgrey">#B9B1B1</color>
+    <color name="colorblue">#0E1735</color>
+    <color name="colordarkblue">#0B1222</color>
+    <color name="colororange">#FF6F00</color>
+    <color name="colorwhiteblue">#1E2766</color>
+    <color name="coloritemgrey">#bfbfbf</color>
+    <color name="colorwhitered">#FF1500</color>
+    <color name="colordarkgrey">#545454</color>
+    <color name="colorsearchgrey">#777777</color>
+</resources>
